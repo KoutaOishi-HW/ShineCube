@@ -5,7 +5,7 @@ Universal Render Pipeline/Particles/Unlitを使用
 
 ※シェーダ毎にプロパティ名が異なるので注意。
 
-これはmat.SetColor( "_Emissive_Color", hoge ) )だがToonはmat.SetColor( "_Emissive_Color", hoge ) )にしないといけない。
+※このUnlitシェーダはmat.SetColor( "_Emissive_Color", hoge ) )だが、例えばToonシェーダはmat.SetColor( "_Emissive_Color", hoge ) )にしないと動作しない。
 
 コードはEmissiveController.csのみ使用
 
