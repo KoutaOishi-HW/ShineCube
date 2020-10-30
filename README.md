@@ -9,6 +9,9 @@ Universal Render Pipeline/Particles/Unlitを使用
 
 コードはEmissiveController.csのみ使用
 
+Animationコンポーネントでも同様に可能
+その際はコンポーネントのアクティブを切り替える
+
 ・明滅
 
 ![bloom2](https://user-images.githubusercontent.com/20298043/97674669-4307be00-1ad1-11eb-93d6-aaab68995daa.gif)
